@@ -13,7 +13,11 @@ Camera Feed ➔ YOLO Pose ➔ Person & Ball Detection ➔ Foot Keypoints
    ➔ Foot-to-Ball Distance ➔ Velocity & Direction Validation
    ➔ Hysteresis State Machine ➔ Debouncing Cooldown ➔ Toe Tap Counter
 ```
+## 🔗 Links
 
+- **Demo Video**: [Add link]
+- **Release APK**: [https://drive.google.com/file/d/1svMsxk9n4dVXgidVZr5XOIXgg1yksJeJ/view?usp=sharing]
+- **GitHub Repository**: [GitHub repository URL: https://github.com/Naveendot55/Flickit.App.git]
 ---
 
 ## ✨ Features
@@ -299,9 +303,3 @@ flutter test
 4. **Extreme Angles**: Works best when the phone is positioned on the ground or on a stand 2–3 meters away capturing full body and ball.
 
 ---
-
-## 🔗 Links
-
-- **Demo Video**: [Add link]
-- **Release APK**: [Add link]
-- **GitHub Repository**: [Add link]
