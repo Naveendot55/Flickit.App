@@ -15,7 +15,7 @@ Camera Feed ➔ YOLO Pose ➔ Person & Ball Detection ➔ Foot Keypoints
 ```
 ## 🔗 Links
 
-- **Demo Video**: [Add link]
+- **Demo Video**: [https://drive.google.com/file/d/1Lzkh981MXUC72YmwJhF-20chmPMIvVTm/view?usp=sharing]
 - **Release APK**: [https://drive.google.com/file/d/1svMsxk9n4dVXgidVZr5XOIXgg1yksJeJ/view?usp=sharing]
 - **GitHub Repository**: [GitHub repository URL: https://github.com/Naveendot55/Flickit.App.git]
 ---
