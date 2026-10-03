@@ -4,7 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../app/providers.dart';
 import '../../detection/presentation/detection_overlay.dart';
-import '../../shared/widgets/metric_chip.dart';
+import '../../../shared/widgets/metric_chip.dart';
 import '../domain/camera_state.dart';
 
 /// Renders the camera feed with overlaid detection keypoints, bounding boxes,

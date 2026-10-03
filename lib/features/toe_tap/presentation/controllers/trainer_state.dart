@@ -1,6 +1,8 @@
-import '../../detection/domain/models/detection_result.dart';
-import '../../toe_tap/domain/models/foot_side.dart';
-import '../../toe_tap/domain/models/tap_state.dart';
+import '../../../detection/domain/models/detection_result.dart';
+
+import '../../domain/models/foot_side.dart';
+
+import '../../domain/models/tap_state.dart';
 
 enum AppStatus {
   idle,

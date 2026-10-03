@@ -4,17 +4,17 @@ import 'package:camera/camera.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../core/constants/app_constants.dart';
-import '../../camera/data/camera_service.dart';
-import '../../camera/domain/camera_state.dart';
-import '../../detection/data/mock_pose_detector.dart';
-import '../../detection/data/ultralytics_pose_detector.dart';
-import '../../detection/domain/models/detection_result.dart';
-import '../../detection/domain/repositories/pose_detector.dart';
-import '../domain/models/tap_detection_config.dart';
-import '../domain/models/tap_event.dart';
-import '../domain/models/tap_state.dart';
-import '../domain/services/toe_tap_detector.dart';
+import '../../../../core/constants/app_constants.dart';
+import '../../../camera/data/camera_service.dart';
+import '../../../camera/domain/camera_state.dart';
+import '../../../detection/data/mock_pose_detector.dart';
+import '../../../detection/data/ultralytics_pose_detector.dart';
+import '../../../detection/domain/models/detection_result.dart';
+import '../../../detection/domain/repositories/pose_detector.dart';
+import '../../domain/models/tap_detection_config.dart';
+import '../../domain/models/tap_event.dart';
+import '../../domain/models/tap_state.dart';
+import '../../domain/services/toe_tap_detector.dart';
 import 'trainer_state.dart';
 
 /// Presentation state notifier for the Toe Tap Trainer.
@@ -281,6 +281,7 @@ class TrainerController extends StateNotifier<TrainerState> {
 
   /// Manages Flutter App Lifecycle state changes (resumed, paused, inactive, detached).
   Future<void> handleLifecycleChange(AppLifecycleState lifecycle) async {
+    debugPrint('FLICKIT LIFECYCLE: $lifecycle');
     switch (lifecycle) {
       case AppLifecycleState.inactive:
       case AppLifecycleState.paused:
@@ -294,7 +295,7 @@ class TrainerController extends StateNotifier<TrainerState> {
         }
         break;
       case AppLifecycleState.detached:
-        await dispose();
+        dispose();
         break;
       case AppLifecycleState.hidden:
         break;

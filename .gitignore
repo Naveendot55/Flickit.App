@@ -9,6 +9,8 @@
 .history
 .svn/
 migrate_working_dir/
+*.zip
+zip/
 
 # IntelliJ related
 *.iml
@@ -29,10 +31,15 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+**/build/
 
 # Android Studio will place these in the project root directory
 .gradle/
+**/.gradle/
+**/.kotlin/
 .android/
+**/GeneratedPluginRegistrant.java
 
 # Local configuration file (contains SDK paths)
 local.properties
+**/local.properties

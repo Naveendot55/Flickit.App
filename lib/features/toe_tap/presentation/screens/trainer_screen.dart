@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../app/providers.dart';
-import '../../../app/theme/app_theme.dart';
-import '../../camera/presentation/camera_preview_view.dart';
-import '../../shared/widgets/app_button.dart';
-import '../../shared/widgets/glass_card.dart';
+import '../../../../app/providers.dart';
+import '../../../../app/theme/app_theme.dart';
+import '../../../camera/presentation/camera_preview_view.dart';
+import '../../../../shared/widgets/app_button.dart';
+import '../../../../shared/widgets/glass_card.dart';
 import '../controllers/trainer_controller.dart';
 import '../controllers/trainer_state.dart';
 import '../widgets/animated_counter.dart';
